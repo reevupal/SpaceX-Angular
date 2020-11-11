@@ -1,0 +1,119 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+ 
+
+  .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  .img-wrapper{
+    width: 13rem;
+    height: 13rem;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    background-color: azure;
+    padding: 1rem;
+  }
+
+  .radio-filter {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .radio-filter li {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 100px;
+    height: 40px;
+    position: relative;
+  }
+  
+  .radio-filter label,
+  .radio-filter input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .radio-filter input[type="radio"] {
+    opacity: 0.01;
+    z-index: 100;
+  }
+  
+  .radio-filter input[type="radio"]:checked+label,
+  .Checked+label {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .radio-filter label {
+    padding: 5px;
+    border: 1px solid #28a745;
+    background-color: #bee8c8;
+    cursor: pointer;
+    z-index: 90;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .radio-filter label:hover {
+    background: #DDD;
+  }
+
+  .launch-now {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .launch-now li {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 100px;
+    height: 40px;
+    position: relative;
+  }
+  
+  .launch-now label,
+  .launch-now input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .launch-now input[type="radio"] {
+    opacity: 0.01;
+    z-index: 100;
+  }
+  
+  .launch-now input[type="radio"]:checked+label,
+  .Checked+label {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .launch-now label {
+    padding: 5px;
+    border: 1px solid #28a745;
+    background-color: #bee8c8;
+    cursor: pointer;
+    z-index: 90;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .launch-now label:hover {
+    background: #DDD;
+  }
