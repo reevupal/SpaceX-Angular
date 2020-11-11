@@ -1,2 +1,2 @@
 # SpaceX-Angular
-Sample SpaceX Program Agular Project
+Sample SpaceX Program Angular Project
